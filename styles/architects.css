@@ -114,6 +114,25 @@ main > section{
 #quick-list{
   font-weight: 500;
 }
+/* feature section related */
+.features{
+  gap: 100px;
+}
+#feature-section-title{
+  border-left: 5px solid #FF900E;
+  padding-left: 20px;
+}
+.feature-card .feature-title{
+  font-weight: 600;
+  font-size: 1.25rem;
+ 
+}
+.feature-card{
+   padding: 30px;
+   border-radius: 8px;
+  box-shadow: 0 4px 30px 0 rgba(0,0,0,0.06);
+  margin-bottom: 20px;
+}
 /* some fact related styles */
 .facts-container{
   display: grid;
@@ -186,6 +205,6 @@ main > section{
   .sponser-company{
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
-    gap: 24px;
+    gap: 50px;
   }
 }
